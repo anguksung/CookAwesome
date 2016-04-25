@@ -1,0 +1,22 @@
+﻿
+ body {
+            padding-top:70px; /* Required For Fixed-Navbar*/
+            font-family:Verdana;
+        }
+
+ /* Required Cart Styles */
+.cart-div .table > thead > tr {
+    background-color: #006CC7;
+color: #fff;
+}
+
+.cart-div .table > thead > tr > th, .cart-div .table > tbody > tr > th, 
+.cart-div .table > tfoot > tr > th, .cart-div .table > thead > tr > td, 
+.cart-div .table > tbody > tr > td,.cart-div .table > tfoot > tr > td {
+    padding:15px;
+}
+
+.cart-total {
+    text-align:right;
+    padding-right:20px;
+}
